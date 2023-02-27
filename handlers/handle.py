@@ -17,6 +17,7 @@ def message_handl(message:Message,bot:TeleBot):
     except :
         return'not suitable formate'
     leverage=data['leverage'].split(" ")
+    print(leverage)
     entry=data['entry'].split("-")
     pair=data['pair'][0:-5]
     try:
