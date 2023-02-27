@@ -26,7 +26,7 @@ def message_handl(message:Message,bot:TeleBot):
 
             print(message1)
         else:
-            message1=f"✨{pair}/USDT\n\n🎗 Trade Type = {data['type']} 🔴\n\n💫 Leverage :- {leverage[1]}\n\n⚡️ Entry=[ {entry[0]} TO {entry[1] }]\n\n❌ StopLoss= {data['stoploss']}\n\n❎ Take profit=[ {data['targets'][0]}, {data['targets'][1]} {data['targets'][2]} {data['targets'][3]} {data['targets'][4]} {data['targets'][5]} {data['targets'][6]} ]"
+            message1=f"✨{pair}/USDT\n\n🎗 Trade Type = {data['type']} 🔴\n\n💫 Leverage :- {leverage[2]}\n\n⚡️ Entry=[ {entry[0]} TO {entry[1] }]\n\n❌ StopLoss= {data['stoploss']}\n\n❎ Take profit=[ {data['targets'][0]}, {data['targets'][1]} {data['targets'][2]} {data['targets'][3]} {data['targets'][4]} {data['targets'][5]} {data['targets'][6]} ]"
     except Exception as e:
         print(e)
     try:
